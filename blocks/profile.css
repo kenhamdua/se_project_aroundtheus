@@ -121,7 +121,9 @@
   }
 */
   .profile__description {
-    align-items: center;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
   }
 
   .profile__add-button {
