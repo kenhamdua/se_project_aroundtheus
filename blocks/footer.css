@@ -1,0 +1,36 @@
+.footer {
+  width: 318 px;
+  height: 18 px;
+  top: 1139 px;
+  left: 200 px;
+  font-weight: 400;
+  color: #545454;
+}
+
+.footer__content {
+  text-align: center;
+  text-justify: auto;
+  padding-top: 60px;
+  /* display: flex;
+  justify-content: space-between;
+  padding: 60px 200px 0; */
+  margin: 0;
+}
+
+/*
+
+.footer__logo {
+  max-width: 105px;
+  max-height: 39px;
+}
+
+.footer__copyright {
+  padding: 108px 80px 60px;
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+} */
