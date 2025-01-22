@@ -12,6 +12,7 @@
   justify-content: center;
   max-width: 415px;
   height: 77px;
+  padding-right: 20px;
   grid-template-areas:
     "title button"
     "description description";
