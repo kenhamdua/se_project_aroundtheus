@@ -45,10 +45,15 @@
 }
 
 .button__like-button {
-  background: transparent url(../images/Vector.jpg) center no-repeat;
+  background: transparent url(../images/Vector.svg) center no-repeat;
   width: 21px;
   height: 18px;
   border: transparent;
+}
+
+.button__like-button:hover {
+  color: #2f80ed;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 620px) {

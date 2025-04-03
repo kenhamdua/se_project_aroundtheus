@@ -1,6 +1,54 @@
 .header {
   margin-top: 45px;
   max-width: 880px;
-  height: 74px;
-  overflow-y: hidden;
+  min-height: 74px;
+
+  .vector {
+    width: 173px;
+    height: 33px;
+    top: 45px;
+    left: 200px;
+  }
+
+  .vector:hover {
+    color: #2f80ed;
+  }
+}
+
+.header :hover {
+  color: #2f80ed;
+}
+
+.line {
+  width: 880px;
+  top: 119px;
+  left: 200px;
+  align-items: center;
+  border: 1px;
+  rotate: 0;
+  opacity: 70%;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-top: 28px;
+    max-width: 320px;
+    height: 56px;
+
+    .vector {
+      width: 126px;
+      height: 24px;
+      top: 28px;
+      left: 27px;
+    }
+  }
+  .line {
+    width: 320px;
+    top: 84px;
+    left: 200px;
+    align-items: center;
+    border: 1px;
+    rotate: 0;
+    opacity: 70%;
+  }
 }
