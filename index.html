@@ -7,18 +7,13 @@
     <meta name="keywords" content="HTML, CSS" />
     <meta name="author" content="kenneth hamilton" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Around The U.S</title>
   </head>
   <body class="page">
     <div class="page__content">
       <header class="header page__section">
-        <img
-          src="./images/Header.png"
-          alt="Vector"
-          src="./images/Vector.svg"
-          alt="Around The U.S"
-        />
-        <img src="./images/Line.png" alt="Line" />
+        <img src="./images/Header.svg" alt="Vector" />
       </header>
       <main class="content">
         <section class="profile">
@@ -28,8 +23,10 @@
             class="profile__image"
           />
           <div class="profile__info">
-            <h1 class="profile__title">Jacques Cousteau</h1>
-            <button alt="ebutton" class="profile__edit-button"></button>
+            <div class="profile_name">
+              <h1 class="profile__title">Jacques Cousteau</h1>
+              <button alt="ebutton" class="profile__edit-button"></button>
+            </div>
             <p class="profile__description">Explorer</p>
           </div>
           <button alt="abutton" class="profile__add-button"></button>
@@ -107,11 +104,6 @@
       </main>
       <footer id="footer" class="footer">
         <div class="footer__content">
-          <!-- <img
-            src="./images/Footer.png"
-            alt="footer__copyright"
-            class="footer__logo"
-          /> -->
           <p class="footer__copyright">&copy; 2025 Kenneth Hamilton</p>
         </div>
       </footer>

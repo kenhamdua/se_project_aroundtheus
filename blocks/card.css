@@ -48,19 +48,16 @@
   background: transparent url(../images/Vector.svg) center no-repeat;
   width: 21px;
   height: 18px;
+  color: #000000;
   border: transparent;
 }
 
 .button__like-button:hover {
-  color: #2f80ed;
   cursor: pointer;
+  opacity: 50%;
 }
 
 @media screen and (max-width: 620px) {
-  /* .profile__info {
-    padding-top: 75px;
-  } */
-
   .card__list {
     margin: 0px;
     padding: 0px;

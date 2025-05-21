@@ -2,25 +2,22 @@
   display: flex;
   align-items: center;
   max-width: 880px;
-  /* height: 120px; */
   padding: 40px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
 .profile__info {
   display: grid;
   justify-content: center;
+  padding: auto;
   max-width: 425px;
-  /* height: 77px; */
-  top: 181px;
-  left: 350px;
-  /* border: 1px solid #ffffff; */
-  /* padding-right: 20px; */
   grid-template-areas:
     "title button"
     "edit button"
     "description description";
   grid-template-columns: minmax(auto, 473px) auto;
+  margin-right: 15px;
 }
 
 .profile__image {
@@ -30,25 +27,43 @@
   object-fit: cover;
   background-position: center;
   margin-right: 14px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.profile_name {
+  display: flex;
 }
 
 .profile__title {
   font-size: 42px;
   line-height: 48px;
-  font-weight: 500px;
+  font-weight: 500;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: ;
+  font-family: "Inter", Arial, sans-serif;
   grid-area: title;
+  padding: auto;
   margin: 0;
+}
+
+.profile__edit-button {
+  background: transparent url(../images/EditPen.svg) center no-repeat;
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  border: 1px solid #ffffff;
+  margin: 8px;
+}
+
+.profile__edit-button:hover {
+  cursor: pointer;
+  opacity: 60%;
 }
 
 .profile__description {
   width: 415px;
-  /* height: 22px; */
   top: 236px;
-  left: 350px;
   font-size: 18px;
   line-height: 21.78px;
   font-weight: 400;
@@ -56,37 +71,22 @@
   white-space: nowrap;
   overflow: hidden;
   grid-area: description;
-  margin: 0;
-  padding-right: 20px;
-}
-
-.profile__edit-button {
-  background: transparent url(../images/Edit\ Button.svg) center no-repeat;
-  width: 24px;
-  /* height: 24px; */
-  /* align-items: center; */
-  top: 196px;
-  left: 741px;
-  border: 1px solid #ffffff;
-}
-
-.profile__edit-button:hover {
-  cursor: pointer;
-  color: #2f80ed;
+  margin: 0 auto;
 }
 
 .profile__add-button {
-  background: transparent url(../images/Add\ Button.svg) center no-repeat;
+  background: transparent url(../images/Add_Sign.svg) center no-repeat;
   width: 150px;
   height: 50px;
   border: 2px solid #ffffff;
-  /* min-width: 75px; */
-  margin-left: auto;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .profile__add-button:hover {
   cursor: pointer;
-  color: #2f80ed;
+  opacity: 60%;
 }
 
 /* @media screen and (max-width: 480px) {
@@ -108,90 +108,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 282px;
     height: 286px;
     top: 126px;
-    left: 19px;
-  }
-
-  .profile__image {
-    /* width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    background-position: center;
-    margin-right: 14px; */
-    padding-bottom: 35px;
   }
 
   .profile__info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 282px;
-    height: 50px;
-    top: 276px;
-    left: 19px;
-    /* grid-template-areas:
+    grid-template-areas:
       "title button"
-      "profile__edit-button"
-      "description description";
-    grid-template-columns: minmax(auto 320px) auto; */
-    /* margin-bottom: 0px;
-    padding: 10px 0px 10px; */
+      "profile__edit-button";
+    /* "description description"; */
+    grid-template-columns: minmax(auto 320px) auto;
   }
 
   .profile__title {
-    width: 196px;
-    height: 22px;
-    top: 276px;
-    left: 62px;
-    line-height: 26.63px;
-    font-weight: 500;
     font-size: 22px;
-    font-family: "Inter", Arial, sans-serif;
-  }
-
-  .profile__description {
-    display: flex;
-    justify-content: center;
-    width: 282px;
-    height: 14px;
-    top: 312px;
-    left: 19px;
-    font-weight: 400;
-    font-family: "Inter", Arial, sans-serif;
-    border: 1px;
-    /* padding: 10px 0px 10px; */
-    padding-bottom: 45px;
   }
 
   .profile__edit-button {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
     width: 18px;
-    height: 18px;
-    top: 280px;
-    left: 268px;
-    padding: 10px 0px 10px;
+  }
+
+  .profile__description {
+    align-items: center;
+    font-weight: 400;
+    font-family: "Inter", Arial, sans-serif;
     border: 1px;
+    padding-bottom: 25px;
+    text-align: center;
   }
 
   .profile__add-button {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 282px;
-    height: 50px;
-    top: 162px;
-    left: 19px;
-    padding: 10px 0px 10px;
-    border: 2px;
-
-    /* width: 100%;
-    margin: 0px; */
-    /* padding: 55px 0px 15px; */
-    /* padding-top: 35px; */
+    width: 100%;
   }
 }
