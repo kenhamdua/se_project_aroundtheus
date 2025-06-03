@@ -2,42 +2,27 @@
   margin-top: 45px;
   max-width: 880px;
   min-height: 74px;
-  border-bottom: 1px;
   color: #ffffff;
+  border-bottom: 1px solid #545454;
+
+  opacity: 70%;
+  rotate: 0;
 }
 
-.header:hover {
-  color: #2f80ed;
-  cursor: pointer;
-}
-
-.vector {
-  width: 880px;
-  height: 33px;
-  top: 45px;
-  color: #ffffff;
-}
-
-.vector:hover {
-  color: #2f80ed;
-  cursor: pointer;
+.Header_Logo {
+  width: 173px;
+  min-height: 33px;
 }
 
 @media screen and (max-width: 320px) {
   .header {
     margin-top: 28px;
     max-width: 320px;
-    height: 56px;
+    min-inline-size: 56px;
   }
 
-  .vector {
+  .Header_Logo {
     width: 126px;
-    height: 24px;
-    top: 28px;
-    left: 27px;
-  }
-
-  .vector:hover {
-    color: #2f80ed;
+    min-height: 24px;
   }
 }
