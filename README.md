@@ -24,7 +24,17 @@ git@github.com:kenhamdua/se_project_aroundtheus.git
 
 **Images**
 
+<<<<<<< HEAD
 ![image atl](https://github.com/kenhamdua/se_project_aroundtheus/blob/main/Screenshot%202025-06-10%20205035.png?raw=true)
+=======
+![image alt]( https://github.com/kenhamdua/se_project_aroundtheus/blob/main/Screenshot%202025-06-10%20205035.png?raw=true)
+
+![image alt]( https://github.com/kenhamdua/se_project_aroundtheus/blob/main/Screenshot%202025-06-10%20205201.png?raw=true)
+
+![image alt]( https://github.com/kenhamdua/se_project_aroundtheus/blob/main/Screenshot%202025-06-10%20205331.png?raw=true)
+
+The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+>>>>>>> 0926e136fbdca654f39f114e1ddaf620905ec52b
 
 ![image atl](https://github.com/kenhamdua/se_project_aroundtheus/blob/main/Screenshot%202025-06-10%20205201.png?raw=true)
 
