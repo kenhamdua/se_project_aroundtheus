@@ -3,13 +3,10 @@
   max-width: 880px;
   min-height: 74px;
   color: #ffffff;
-  border-bottom: 1px solid #545454;
-
-  opacity: 70%;
-  rotate: 0;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }
 
-.Header_Logo {
+.header_logo {
   width: 173px;
   min-height: 33px;
 }
@@ -18,11 +15,13 @@
   .header {
     margin-top: 28px;
     max-width: 320px;
+    min-height: 42px;
     min-inline-size: 56px;
   }
 
-  .Header_Logo {
+  .header_logo {
     width: 126px;
     min-height: 24px;
+    margin-left: 27px;
   }
 }
